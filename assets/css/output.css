@@ -521,8 +521,28 @@ video {
   display: none;
 }
 
+.h-\[72px\] {
+  height: 72px;
+}
+
+.h-\[192px\] {
+  height: 192px;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[272px\] {
+  width: 272px;
+}
+
+.w-\[120px\] {
+  width: 120px;
 }
 
 .w-24 {
@@ -537,12 +557,28 @@ video {
   flex-direction: row;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border {
@@ -559,16 +595,59 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-5 {
-  padding: 1.25rem;
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-azul-normal {
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 122 228 / var(--tw-bg-opacity));
+}
+
+.bg-search {
+  background-image: url('/assets/img/icon-search-gray.svg');
+}
+
+.bg-banner {
+  background-image: url('/assets/img/bg-banner.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .p-1 {
   padding: 0.25rem;
 }
 
-.p-4 {
-  padding: 1rem;
+.p-3 {
+  padding: 0.75rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .py-2 {
@@ -581,31 +660,180 @@ video {
   padding-right: 2.75rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .text-center {
   text-align: center;
+}
+
+.font-primary {
+  font-family: Raleway;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:-ml-52 {
+    margin-left: -13rem;
+  }
+
+  .md\:-ml-\[40\] {
+    margin-left: -40;
+  }
+
+  .md\:-ml-\[40\%\] {
+    margin-left: -40%;
+  }
+
+  .md\:-ml-\[0\%\] {
+    margin-left: -0%;
+  }
+
+  .md\:-ml-\[20\%\] {
+    margin-left: -20%;
+  }
+
+  .md\:-ml-\[100\%\] {
+    margin-left: -100%;
+  }
+
+  .md\:-ml-\[calc\(100vw-100px\)\] {
+    margin-left: calc(calc(100vw - 100px) * -1);
+  }
+
+  .md\:-ml-\[25\] {
+    margin-left: -25;
+  }
+
+  .md\:-ml-\[25\%\] {
+    margin-left: -25%;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-\[352px\] {
+    height: 352px;
+  }
+
+  .md\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .md\:text-\[52px\] {
+    font-size: 52px;
+  }
+
+  .md\:text-\[22px\] {
+    font-size: 22px;
+  }
+
+  .md\:font-bold {
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:h-\[115px\] {
+    height: 115px;
+  }
+
+  .xl\:w-\[176px\] {
+    width: 176px;
+  }
+
+  .xl\:px-\[152px\] {
+    padding-left: 152px;
+    padding-right: 152px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .xl2\:-m-10 {
+    margin: -2.5rem;
+  }
+
+  .xl2\:-m-\[200px\] {
+    margin: -200px;
+  }
+
+  .xl2\:-ml-\[200px\] {
+    margin-left: -200px;
+  }
+
+  .xl2\:-ml-\[50\%\] {
+    margin-left: -50%;
+  }
+
+  .xl2\:-ml-\[0\%\] {
+    margin-left: -0%;
+  }
+
+  .xl2\:-ml-\[25\%\] {
+    margin-left: -25%;
+  }
+
+  .xl2\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .xl2\:-ml-96 {
+    margin-left: -24rem;
+  }
+
+  .xl2\:-ml-\[30\%\] {
+    margin-left: -30%;
+  }
+
+  .xl2\:-ml-\[100\] {
+    margin-left: -100;
+  }
+
+  .xl2\:-ml-\[100\%\] {
+    margin-left: -100%;
+  }
+
+  .xl2\:-ml-\[40\%\] {
+    margin-left: -40%;
+  }
+
+  .xl2\:h-\[115px\] {
+    height: 115px;
+  }
+
+  .xl2\:w-\[176px\] {
+    width: 176px;
+  }
+
+  .xl2\:px-\[152px\] {
+    padding-left: 152px;
+    padding-right: 152px;
+  }
 }

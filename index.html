@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/output.min.css">
-    <title></title>
+    <title>AluraGeek</title>
 </head>
 
-<body class="bg-white">
+<body class="bg-white font-primary text-[14px]">
 
-    <header class="flex flex-row justify-between items-center w-full p-4">
+    <header class="flex flex-row justify-between items-center w-full p-4 h-[72px] xl2:h-[115px] xl2:px-[152px]">
 
-        <h1 class="logo w-24">
+        <h1 class="logo w-[100px] xl2:w-[176px]">
             <svg width="100%" viewBox="0 0 176 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_55_1110)">
                     <path
@@ -55,13 +56,13 @@
             </svg>
         </h1>
 
-        <div class="hidden">
-            <input type="search" name="" id="">
+        <div class="hidden md:block bg-gray-100 p-1 px-3 w-[272px] rounded-full md:-ml-[25%] xl2:-ml-[40%]">
+            <input type="search" name="" id="" placeholder="O que deseja encontrar?" class="w-full bg-transparent bg-search bg-no-repeat bg-right p-1">
         </div>
 
-        <a href="" class="border p-1 border-blue-500 text-center text-blue-500 py-2 px-11">login</a>
+        <a href="#" class="border p-1 border-blue-500 text-center text-blue-500 py-2 px-11">Login</a>
 
-        <buton class="search-buton">
+        <buton class="search-buton md:hidden">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M15.5001 14H14.7101L14.4301 13.73C15.6301 12.33 16.2501 10.42 15.9101 8.39002C15.4401 5.61002 13.1201 3.39002 10.3201 3.05002C6.09014 2.53002 2.53014 6.09001 3.05014 10.32C3.39014 13.12 5.61014 15.44 8.39014 15.91C10.4201 16.25 12.3301 15.63 13.7301 14.43L14.0001 14.71V15.5L18.2501 19.75C18.6601 20.16 19.3301 20.16 19.7401 19.75C20.1501 19.34 20.1501 18.67 19.7401 18.26L15.5001 14ZM9.50014 14C7.01014 14 5.00014 11.99 5.00014 9.50002C5.00014 7.01002 7.01014 5.00002 9.50014 5.00002C11.9901 5.00002 14.0001 7.01002 14.0001 9.50002C14.0001 11.99 11.9901 14 9.50014 14Z"
@@ -69,11 +70,11 @@
             </svg>
         </buton>
     </header>
-    <main class="p-4">
-        <section class="banner">
-            <h2>Dezembro Promocional</h2>
-            <p>Produtos selecionados com 33% de desconto</p>
-            <a href="#">Ver Consoles</a>
+    <main>
+        <section class="banner bg-banner bg-center bg-cover bg-no-repeat h-[192px] md:h-[352px] p-4 flex flex-col justify-end text-white gap-2 md:gap-5 xl2:px-[152px]">
+            <h2 class="font-bold text-[22px] md:text-[52px]">Dezembro Promocional</h2>
+            <p class="font-semibold md:text-[22px] md:font-bold">Produtos selecionados com 33% de desconto</p>
+            <a href="#" class="bg-azul-normal w-[120px] p-3 text-center font-semibold">Ver Consoles</a>
         </section>
         <section class="products">
             <h2>Star Wars</h2>
