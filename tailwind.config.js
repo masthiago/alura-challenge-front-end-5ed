@@ -12,7 +12,10 @@ module.exports = {
       },
       colors: {
         azul :{
-          normal: '#2A7AE4'
+          base: '#2A7AE4'
+        },
+        cinza: {
+          base: '#464646'
         }
       },
       fontFamily: {

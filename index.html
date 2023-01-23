@@ -57,10 +57,11 @@
         </h1>
 
         <div class="hidden md:block bg-gray-100 p-1 px-3 w-[272px] rounded-full md:-ml-[25%] xl2:-ml-[40%]">
-            <input type="search" name="" id="" placeholder="O que deseja encontrar?" class="w-full bg-transparent bg-search bg-no-repeat bg-right p-1">
+            <input type="search" name="" id="" placeholder="O que deseja encontrar?"
+                class="w-full bg-transparent bg-search bg-no-repeat bg-right p-1">
         </div>
 
-        <a href="#" class="border p-1 border-blue-500 text-center text-blue-500 py-2 px-11">Login</a>
+        <a href="#" class="border p-1 border-azul-base text-center text-azul-base py-2 px-11">Login</a>
 
         <buton class="search-buton md:hidden">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -71,134 +72,159 @@
         </buton>
     </header>
     <main>
-        <section class="banner bg-banner bg-center bg-cover bg-no-repeat h-[192px] md:h-[352px] p-4 flex flex-col justify-end text-white gap-2 md:gap-5 xl2:px-[152px]">
+        <section
+            class="banner bg-banner bg-center bg-cover bg-no-repeat h-[192px] md:h-[352px] p-4 flex flex-col justify-end text-white gap-2 md:gap-5 xl2:px-[152px]">
             <h2 class="font-bold text-[22px] md:text-[52px]">Dezembro Promocional</h2>
             <p class="font-semibold md:text-[22px] md:font-bold">Produtos selecionados com 33% de desconto</p>
-            <a href="#" class="bg-azul-normal w-[120px] p-3 text-center font-semibold">Ver Consoles</a>
+            <a href="#" class="bg-azul-base w-[120px] p-3 text-center font-semibold">Ver Consoles</a>
         </section>
-        <section class="products">
-            <h2>Star Wars</h2>
-            <a href="#">Ver tudo</a>
-            <ul>
-                <li>
+        <section class="products p-4 xl2:px-[152px] md:mb-4">
+            <div class="flex justify-between w-full items-center mb-4">
+                <h2 class="font-bold text-[22px] text-cinza-base">Star Wars</h2>
+                <a href="#" class="text-azul-base text-[14px] font-bold flex items-center">
+                    Ver tudo
+                    <svg class="ml-2 mb-0.5" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.666341 6.66665L8.77967 6.66665L5.05301 10.3933L5.99967 11.3333L11.333 5.99998L5.99968 0.666646L5.05968 1.60665L8.77968 5.33331L0.666341 5.33331L0.666341 6.66665Z" fill="#2A7AE4"/>
+                        </svg>
+                        
+                </a>
+            </div>
+            <ul class="flex flex-wrap gap-2 justify-between">
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto001.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto002.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto003.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto004.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow hidden xl2:flex">
                     <img src="./assets/img/produto005.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow hidden xl2:flex">
                     <img src="./assets/img/produto006.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
             </ul>
         </section>
-        <section class="products">
-            <h2>Star Wars</h2>
-            <a href="#">Ver tudo</a>
-            <ul>
-                <li>
+        <section class="products p-4 xl2:px-[152px] md:mb-4">
+            <div class="flex justify-between w-full items-center mb-4">
+                <h2 class="font-bold text-[22px] text-cinza-base">Consoles</h2>
+                <a href="#" class="text-azul-base text-[14px] font-bold flex items-center">
+                    Ver tudo
+                    <svg class="ml-2 mb-0.5" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.666341 6.66665L8.77967 6.66665L5.05301 10.3933L5.99967 11.3333L11.333 5.99998L5.99968 0.666646L5.05968 1.60665L8.77968 5.33331L0.666341 5.33331L0.666341 6.66665Z" fill="#2A7AE4"/>
+                        </svg>
+                        
+                </a>
+            </div>
+            <ul class="flex flex-wrap gap-2 justify-between">
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto007.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto008.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto009.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto010.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow hidden xl2:flex">
                     <img src="./assets/img/produto011.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow hidden xl2:flex">
                     <img src="./assets/img/produto012.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
             </ul>
         </section>
-        <section class="products">
-            <h2>Star Wars</h2>
-            <a href="#">Ver tudo</a>
-            <ul>
-                <li>
+        <section class="products p-4 xl2:px-[152px] md:mb-4">
+            <div class="flex justify-between w-full items-center mb-4">
+                <h2 class="font-bold text-[22px] text-cinza-base">Diversos</h2>
+                <a href="#" class="text-azul-base text-[14px] font-bold flex items-center">
+                    Ver tudo
+                    <svg class="ml-2 mb-0.5" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.666341 6.66665L8.77967 6.66665L5.05301 10.3933L5.99967 11.3333L11.333 5.99998L5.99968 0.666646L5.05968 1.60665L8.77968 5.33331L0.666341 5.33331L0.666341 6.66665Z" fill="#2A7AE4"/>
+                        </svg>
+                        
+                </a>
+            </div>
+            <ul class="flex flex-wrap gap-2 justify-between">
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto013.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto014.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto015.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow">
                     <img src="./assets/img/produto016.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow hidden xl2:flex">
                     <img src="./assets/img/produto017.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
-                <li>
+                <li class="max-w-[156px] md:max-w-[176px] flex flex-col gap-1 md:gap-2 mb-2 grow hidden xl2:flex">
                     <img src="./assets/img/produto018.png" alt="">
                     <h3>Produto XYZ</h3>
-                    <p>R$ 60,00</p>
-                    <a href="">Ver produto</a>
+                    <p class="font-bold">R$ 60,00</p>
+                    <a href="#" class="font-bold text-[14px] md:text-4 text-azul-base">Ver produto</a>
                 </li>
             </ul>
         </section>
