@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        banner: "url('/assets/img/bg-banner.jpg')",
-        search: "url('/assets/img/icon-search-gray.svg')"
+        banner: "url('../img/bg-banner.jpg')",
+        search: "url('../img/icon-search-gray.svg')"
       },
       colors: {
         azul :{

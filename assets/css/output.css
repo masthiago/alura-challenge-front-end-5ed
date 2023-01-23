@@ -610,11 +610,11 @@ video {
 }
 
 .bg-search {
-  background-image: url('/assets/img/icon-search-gray.svg');
+  background-image: url('../img/icon-search-gray.svg');
 }
 
 .bg-banner {
-  background-image: url('/assets/img/bg-banner.jpg');
+  background-image: url('../img/bg-banner.jpg');
 }
 
 .bg-cover {
@@ -695,38 +695,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:-ml-52 {
-    margin-left: -13rem;
-  }
-
-  .md\:-ml-\[40\] {
-    margin-left: -40;
-  }
-
-  .md\:-ml-\[40\%\] {
-    margin-left: -40%;
-  }
-
-  .md\:-ml-\[0\%\] {
-    margin-left: -0%;
-  }
-
-  .md\:-ml-\[20\%\] {
-    margin-left: -20%;
-  }
-
-  .md\:-ml-\[100\%\] {
-    margin-left: -100%;
-  }
-
-  .md\:-ml-\[calc\(100vw-100px\)\] {
-    margin-left: calc(calc(100vw - 100px) * -1);
-  }
-
-  .md\:-ml-\[25\] {
-    margin-left: -25;
-  }
-
   .md\:-ml-\[25\%\] {
     margin-left: -25%;
   }
@@ -760,66 +728,7 @@ video {
   }
 }
 
-@media (min-width: 1280px) {
-  .xl\:h-\[115px\] {
-    height: 115px;
-  }
-
-  .xl\:w-\[176px\] {
-    width: 176px;
-  }
-
-  .xl\:px-\[152px\] {
-    padding-left: 152px;
-    padding-right: 152px;
-  }
-}
-
 @media (min-width: 1440px) {
-  .xl2\:-m-10 {
-    margin: -2.5rem;
-  }
-
-  .xl2\:-m-\[200px\] {
-    margin: -200px;
-  }
-
-  .xl2\:-ml-\[200px\] {
-    margin-left: -200px;
-  }
-
-  .xl2\:-ml-\[50\%\] {
-    margin-left: -50%;
-  }
-
-  .xl2\:-ml-\[0\%\] {
-    margin-left: -0%;
-  }
-
-  .xl2\:-ml-\[25\%\] {
-    margin-left: -25%;
-  }
-
-  .xl2\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .xl2\:-ml-96 {
-    margin-left: -24rem;
-  }
-
-  .xl2\:-ml-\[30\%\] {
-    margin-left: -30%;
-  }
-
-  .xl2\:-ml-\[100\] {
-    margin-left: -100;
-  }
-
-  .xl2\:-ml-\[100\%\] {
-    margin-left: -100%;
-  }
-
   .xl2\:-ml-\[40\%\] {
     margin-left: -40%;
   }
