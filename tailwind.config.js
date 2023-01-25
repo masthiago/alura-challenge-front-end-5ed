@@ -12,7 +12,8 @@ module.exports = {
       },
       colors: {
         azul :{
-          base: '#2A7AE4'
+          base: '#2A7AE4',
+          claro: '#EAF2FD'
         },
         cinza: {
           base: '#464646'
