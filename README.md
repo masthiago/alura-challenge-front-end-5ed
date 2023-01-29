@@ -5,6 +5,7 @@
 * [Link do Challenge](https://www.alura.com.br/challenges/front-end-5//semana-01-criando-loja-interface-cliente)
 * [Discord exclusivo dos estudantes da Alura](https://discord.com/invite/QeBdgAjXnn)
 * [Modelo Figma](https://www.figma.com/file/fR9qvy3gU53s2q5efeMpy9/AluraGeek---Challenge?node-id=0%3A1)
+* [Projeto publicado no GitHub Pages](https://masthiago.github.io/alura-challenge-front-end-5ed/)
 
 ### Semana 01 - Criando minha loja: interface cliente
 
