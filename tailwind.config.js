@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./index.html",
+    "./login.html",
     "./assests/**/*.js"
   ],
   theme: {
@@ -16,7 +17,8 @@ module.exports = {
           claro: '#EAF2FD'
         },
         cinza: {
-          base: '#464646'
+          base: '#464646',
+          claro: '#F5F5F5'
         }
       },
       fontFamily: {
