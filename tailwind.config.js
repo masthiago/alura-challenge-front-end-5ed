@@ -4,6 +4,7 @@ module.exports = {
     "./index.html",
     "./login.html",
     "./administrativo.html",
+    "./adicionar.html",
     "./produto.html",
     "./assests/**/*.js"
   ],
